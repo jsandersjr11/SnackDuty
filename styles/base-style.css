@@ -773,8 +773,8 @@ textarea.w-select {
 
 .w-container {
     max-width: 940px;
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-left: auto;
+    margin-right: auto; */
 }
 
 .w-container:before,
@@ -5468,6 +5468,7 @@ figcaption {
     justify-content: space-between;
     align-items: center;
     display: flex;
+    max-width: 300px;
 }
 
 .header-nav-menu-wrapper.middle {
